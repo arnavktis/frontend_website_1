@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "./components/header";
 import HeroSection from "./components/heroSection";
+import GetStarted from "./components/getStarted";
+import Construction from "./components/construction";
 import './assets/css/main.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/vendor/bootstrap/css/bootstrap-grid.min.css';
 import './assets/vendor/bootstrap-icons/bootstrap-icons.css';
 import './assets/vendor/fontawesome-free/css/all.min.css';
 import './assets/vendor/swiper/swiper-bundle.min.css';
-
-
-// import "./App.css";
+import "./App.css";
 
 function App() {
   return (
@@ -28,6 +28,8 @@ function App() {
         </head>
         <Header></Header>
         <HeroSection></HeroSection>
+        <GetStarted></GetStarted>
+        <Construction></Construction>
       </body>
     </div>
   );
