@@ -17,7 +17,7 @@ function App() {
       <body>
         <head>
           {/* Favicons */}
-          <link href="assets/img/favicon.png" rel="icon" />
+          <link href="" rel="icon" />
           <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
           {/* Google font */}
@@ -28,6 +28,7 @@ function App() {
         </head>
         <Header></Header>
         <HeroSection></HeroSection>
+        
       </body>
     </div>
   );
