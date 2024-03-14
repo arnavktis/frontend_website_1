@@ -18,7 +18,7 @@ function Construction() {
               <div className="card-item">
                 <div className="row">
                   <div className="col-xl-5">
-                    <div className="card-bg" style={{backgroundImage: "url(src/assets/img/constructions-1.jpg)"}}></div>
+                    <div className="card-bg" style={{backgroundImage: "url(assets/img/constructions-1.jpg)"}}></div>
                   </div>
                   <div className="col-xl-7 d-flex align-items-center">
                     <div className="card-body">

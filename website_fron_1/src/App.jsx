@@ -3,6 +3,8 @@ import Header from "./components/header";
 import HeroSection from "./components/heroSection";
 import GetStarted from "./components/getStarted";
 import Construction from "./components/construction";
+import Services from "./components/services";
+import AltServices from "./components/altServices";
 import "./assets/css/main.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/vendor/bootstrap/css/bootstrap-grid.min.css";
@@ -32,6 +34,8 @@ function App() {
         <HeroSection></HeroSection>
         <GetStarted></GetStarted>
         <Construction></Construction>
+        <Services></Services>
+        <AltServices></AltServices>
       </body>
     </div>
   );
