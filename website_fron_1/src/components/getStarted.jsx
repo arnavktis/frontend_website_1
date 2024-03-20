@@ -11,16 +11,18 @@ function getStarted() {
 
                     <div className="col-lg-6 d-flex align-items-center" data-aos="fade-up">
                         <div className="content">
-                        <h3>Minus hic non reiciendis ea possimus at quia.</h3>
-                        <p>Rem id rerum. Debitis deserunt quidem delectus expedita ducimus dolor. Aut iusto ipsa. Eos ipsum nobis ipsa soluta itaque perspiciatis fuga ipsum perspiciatis. Eum amet fugiat totam nisi possimus ut delectus dicta.</p>
-                        <p>Aliquam velit deserunt autem. Inventore et saepe. Tenetur suscipit eligendi labore culpa eos. Deserunt porro magni qui necessitatibus dolorem at animi cupiditate.</p>
+                        <h3>Products that fit your needs</h3>
+                        <p>Utilizing modern designing software and 
+                          manufacturing tools, our team delivers contemporary 
+                          components while ensuring stringent quality checks
+                          and meticulous packaging for client satisfaction.</p>
                         </div>
                     </div>
 
                     <div className="col-lg-5" data-aos="fade">
                         <form action="forms/quote.php" method="post" className="php-email-form">
                         <h3>Get a quote</h3>
-                        <p>Vel nobis odio laboriosam et hic voluptatem. Inventore vitae totam. Rerum repellendus enim linead sero park flows.</p>
+                        <p>Ready to transform your vision into reality? Fill out the form below and let's bring your project to life.</p>
                         <div className="row gy-3">
 
                             <div className="col-md-12">
