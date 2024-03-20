@@ -14,7 +14,7 @@ function Header() {
             {/* Uncomment the line below if you also wish to use an image logo */}
             {/* <img src="assets/img/logo.png" alt=""> */}
             <h1>
-              UpConstruction<span>.</span>
+            J.N. Engineering
             </h1>
           </a>
 
