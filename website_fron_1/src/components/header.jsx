@@ -1,9 +1,11 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-router-dom";
+import { useState } from 'react';
 
 function Header() {
   // Capitalized the function name to follow convention
+  const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="header">
       <header id="header" className="header d-flex align-items-center">
@@ -18,10 +20,20 @@ function Header() {
             </h1>
           </a>
 
-          <i className="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
-          <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+          {/* <i className="mobile-nav-toggle mobile-nav-show bi bi-list" onClick={() =>{setMenuOpen(!menuOpen)}}></i>
+          <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i> */}
+          {/* <div className="mobile-nav-toggle mobile-nav-show bi bi-list" onClick={() =>{setMenuOpen(!menuOpen)}}>
+            <console className="log">print</console>
+          </div> */}
+
+
           <nav id="navbar" className="navbar">
-            <ul>
+            <div className="menu" onClick={() =>{setMenuOpen(!menuOpen);}}>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <ul className={menuOpen ? "open" : ""}>
               <li>
                 <Link to="/" className="active">
                   Home
