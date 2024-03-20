@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function heroSection() {
   return (
-    <div class="heroSection">
+    <div className="heroSection">
       <section id="hero" className="hero">
         <div className="info d-flex align-items-center">
           <div className="container">
