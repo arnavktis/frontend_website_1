@@ -467,11 +467,20 @@ section {
     z-index: 9997;
   } */
 
+  .navbar .cross{
+    text-align: left;
+    font-size: large;
+    color: white;
+  }
+
   .navbar ul.open{
     /* margin-top: 20px; */
     display: block;
     position: fixed;
-    
+    margin-left: 75%;
+    transition: 0ms;
+    width:25%;
+
   }
 
   .navbar ul {

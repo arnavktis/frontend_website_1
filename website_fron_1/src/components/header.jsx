@@ -34,71 +34,32 @@ function Header() {
               <span></span>
             </div>
             <ul className={menuOpen ? "open" : ""}>
+              {menuOpen && (<li className="cross" onClick={() =>{setMenuOpen(!menuOpen);}}>
+                <a >X</a>
+              </li>)}
               <li>
                 <Link to="/" className="active">
                   Home
                 </Link>
               </li>
               <li>
-                <Link to="/about">About</Link>
+                <Link to="/about">Equipment</Link>
+              </li>
+              <li>
+                <Link to="/about">Products</Link>
               </li>
               {/* <li><Link to="/services">Services</Link></li>
               <li><Link to="/projects">Projects</Link></li>
               <li><Link to="/blog">Blog</Link></li> */}
-              <li className="dropdown">
-                <a href="#">
-                  <span>Dropdown</span>{" "}
-                  <i className="bi bi-chevron-down dropdown-indicator"></i>
-                </a>
-                <ul>
-                  <li>
-                    <a href="#">Dropdown 1</a>
-                  </li>
-                  <li className="dropdown">
-                    <a href="#">
-                      <span>Deep Dropdown</span>{" "}
-                      <i className="bi bi-chevron-down dropdown-indicator"></i>
-                    </a>
-                    <ul>
-                      <li>
-                        <a href="#">Deep Dropdown 1</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Dropdown 2</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Dropdown 3</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Dropdown 4</a>
-                      </li>
-                      <li>
-                        <a href="#">Deep Dropdown 5</a>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a href="#">Dropdown 2</a>
-                  </li>
-                  <li>
-                    <a href="#">Dropdown 3</a>
-                  </li>
-                  <li>
-                    <a href="#">Dropdown 4</a>
-                  </li>
-                </ul>
-              </li>
               <li>
                 <a href="/contact">Contact</a>
               </li>{" "}
-              {/* Example of valid href */}
             </ul>
           </nav>
-          {/* .navbar */}
         </div>
       </header>
     </div>
   );
 }
 
-export default Header; // Capitalized the component name to follow convention
+export default Header;
