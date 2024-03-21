@@ -21,9 +21,9 @@ function Header() {
           </a>
           <nav id="navbar" className="navbar">
             <div className="menu" onClick={() =>{setMenuOpen(!menuOpen);}}>
-              <span></span>
-              <span></span>
-              <span></span>
+              <span className={menuOpen ? "hide" : ""}></span>
+              <span className={menuOpen ? "hide" : ""}></span>
+              <span className={menuOpen ? "hide" : ""}></span>
             </div>
             <ul className={menuOpen ? "open" : ""}>
               {menuOpen && (<li className="cross" onClick={() =>{setMenuOpen(!menuOpen);}}>
