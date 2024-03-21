@@ -584,6 +584,7 @@ section {
 --------------------------------------------------------------*/
 .get-started .content {
   padding: 30px 0;
+  text-align: left;
 }
 
 .get-started .content h3 {
@@ -607,10 +608,11 @@ section {
 }
 
 .get-started .content p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .get-started .php-email-form {
+  text-align: left;
   background: #fff;
   padding: 30px;
   height: 100%;
