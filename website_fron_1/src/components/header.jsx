@@ -19,14 +19,6 @@ function Header() {
             J.N. Engineering
             </h1>
           </a>
-
-          {/* <i className="mobile-nav-toggle mobile-nav-show bi bi-list" onClick={() =>{setMenuOpen(!menuOpen)}}></i>
-          <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i> */}
-          {/* <div className="mobile-nav-toggle mobile-nav-show bi bi-list" onClick={() =>{setMenuOpen(!menuOpen)}}>
-            <console className="log">print</console>
-          </div> */}
-
-
           <nav id="navbar" className="navbar">
             <div className="menu" onClick={() =>{setMenuOpen(!menuOpen);}}>
               <span></span>
@@ -43,14 +35,14 @@ function Header() {
                 </Link>
               </li>
               <li>
+                <Link to="/about">About</Link>
+              </li>
+              <li>
                 <Link to="/about">Equipment</Link>
               </li>
               <li>
                 <Link to="/about">Products</Link>
               </li>
-              {/* <li><Link to="/services">Services</Link></li>
-              <li><Link to="/projects">Projects</Link></li>
-              <li><Link to="/blog">Blog</Link></li> */}
               <li>
                 <a href="/contact">Contact</a>
               </li>{" "}
