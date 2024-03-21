@@ -6,6 +6,7 @@ import { useState } from 'react';
 function Header() {
   // Capitalized the function name to follow convention
   const [menuOpen, setMenuOpen] = useState(false);
+  const [crossOpen, setCrossOpen] = useState(false);
   return (
     <div className="header">
       <header id="header" className="header d-flex align-items-center">
@@ -21,13 +22,13 @@ function Header() {
           </a>
 
           <nav id="navbar" className="navbar">
-            <div className="menu" onClick={() =>{setMenuOpen(!menuOpen);}}>
+            <div className="menu" onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(!crossOpen);}}>
               <span className={menuOpen ? "hide" : ""}></span>
               <span className={menuOpen ? "hide" : ""}></span>
               <span className={menuOpen ? "hide" : ""}></span>
             </div>
             <ul className={menuOpen ? "open" : ""}>
-              {menuOpen && (<li className="cross" onClick={() =>{setMenuOpen(!menuOpen);}}>
+              {crossOpen && (<li className="cross" onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(!crossOpen);}}>
                 <a >X</a>
               </li>)}
               <li onClick={() =>{setMenuOpen(!menuOpen);}}>
