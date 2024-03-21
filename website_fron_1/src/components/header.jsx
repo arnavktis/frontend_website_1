@@ -37,21 +37,21 @@ function Header() {
               {menuOpen && (<li className="cross" onClick={() =>{setMenuOpen(!menuOpen);}}>
                 <a >X</a>
               </li>)}
-              <li>
+              <li onClick={() =>{setMenuOpen(!menuOpen);}}>
                 <Link to="/" className="active">
                   Home
                 </Link>
               </li>
-              <li>
+              <li onClick={() =>{setMenuOpen(!menuOpen);}}>
                 <Link to="/about">Equipment</Link>
               </li>
-              <li>
+              <li onClick={() =>{setMenuOpen(!menuOpen);}}>
                 <Link to="/about">Products</Link>
               </li>
               {/* <li><Link to="/services">Services</Link></li>
               <li><Link to="/projects">Projects</Link></li>
               <li><Link to="/blog">Blog</Link></li> */}
-              <li>
+              <li onClick={() =>{setMenuOpen(!menuOpen);}}>
                 <a href="/contact">Contact</a>
               </li>{" "}
             </ul>
