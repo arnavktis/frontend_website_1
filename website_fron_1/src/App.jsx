@@ -8,6 +8,7 @@ import Construction from "./components/construction";
 import Services from "./components/services";
 import AltServices from "./components/altServices";
 import Features from "./components/features";
+import Footer from "./components/footer";
 import "./assets/css/main.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/vendor/bootstrap/css/bootstrap-grid.min.css";
@@ -62,6 +63,7 @@ function App() {
                 <Route path="/blog" component={Blog} />
                 <Route path="/contact" component={Contact} /> */}
         </Routes>
+        <Footer />
       </Router>
     </div>
   );
