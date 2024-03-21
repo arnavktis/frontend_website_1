@@ -20,13 +20,6 @@ function Header() {
             </h1>
           </a>
 
-          {/* <i className="mobile-nav-toggle mobile-nav-show bi bi-list" onClick={() =>{setMenuOpen(!menuOpen)}}></i>
-          <i className="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i> */}
-          {/* <div className="mobile-nav-toggle mobile-nav-show bi bi-list" onClick={() =>{setMenuOpen(!menuOpen)}}>
-            <console className="log">print</console>
-          </div> */}
-
-
           <nav id="navbar" className="navbar">
             <div className="menu" onClick={() =>{setMenuOpen(!menuOpen);}}>
               <span className={menuOpen ? "hide" : ""}></span>
@@ -43,14 +36,14 @@ function Header() {
                 </Link>
               </li>
               <li onClick={() =>{setMenuOpen(!menuOpen);}}>
-                <Link to="/about">Equipment</Link>
+                <Link to="/about">About</Link>
               </li>
               <li onClick={() =>{setMenuOpen(!menuOpen);}}>
-                <Link to="/about">Products</Link>
+                <Link to="/equipment">Equipment</Link>
               </li>
-              {/* <li><Link to="/services">Services</Link></li>
-              <li><Link to="/projects">Projects</Link></li>
-              <li><Link to="/blog">Blog</Link></li> */}
+              <li onClick={() =>{setMenuOpen(!menuOpen);}}>
+                <Link to="/product">Products</Link>
+              </li>
               <li onClick={() =>{setMenuOpen(!menuOpen);}}>
                 <a href="/contact">Contact</a>
               </li>{" "}
