@@ -22,30 +22,30 @@ function Header() {
           </a>
 
           <nav id="navbar" className="navbar">
-            <div className="menu" onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(!crossOpen);}}>
+            <div className="menu" onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(true);}}>
               <span className={menuOpen ? "hide" : ""}></span>
               <span className={menuOpen ? "hide" : ""}></span>
               <span className={menuOpen ? "hide" : ""}></span>
             </div>
             <ul className={menuOpen ? "open" : ""}>
-              {crossOpen && (<li className="cross" onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(!crossOpen);}}>
-                <a >X</a>
+              {crossOpen && (<li className="cross" onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(false);}}>
+                <a>X</a>
               </li>)}
-              <li onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(!crossOpen);}}>
+              <li onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(false);}}>
                 <Link to="/" className="active">
                   Home
                 </Link>
               </li>
-              <li onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(!crossOpen);}}>
+              <li onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(false);}}>
                 <Link to="/about">About</Link>
               </li>
-              <li onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(!crossOpen);}}>
+              <li onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(false);}}>
                 <Link to="/equipment">Equipment</Link>
               </li>
-              <li onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(!crossOpen);}}>
+              <li onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(false);}}>
                 <Link to="/product">Products</Link>
               </li>
-              <li onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(!crossOpen);}}>
+              <li onClick={() =>{setMenuOpen(!menuOpen); setCrossOpen(false);}}>
                 <a href="/contact">Contact</a>
               </li>{" "}
             </ul>

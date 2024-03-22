@@ -1,14 +1,14 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-function Construction() {
+function Products_Main() {
   return (
-    <div className="construction">
-      <section id="constructions" className="constructions">
+    <div className="product">
+      <section id="products" className="products">
         <div className="container" data-aos="fade-up">
 
           <div className="section-header">
-            <h2>Constructions</h2>
+            <h2>Products</h2>
             <p>Nulla dolorum nulla nesciunt rerum facere sed ut inventore quam porro nihil id ratione ea sunt quis dolorem dolore earum</p>
           </div>
 
@@ -86,4 +86,4 @@ function Construction() {
   );
 }
 
-export default Construction;
+export default Products_Main;
