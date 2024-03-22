@@ -4,7 +4,8 @@ import Header from "./components/header";
 import About from "./components/About";
 import HeroSection from "./components/heroSection";
 import GetStarted from "./components/getStarted";
-import Construction from "./components/construction";
+import Equipment_Main from "./components/equipment_main";
+import Products_Main from "./components/products_main";
 import Services from "./components/services";
 import AltServices from "./components/altServices";
 import Features from "./components/features";
@@ -19,35 +20,16 @@ import "./App.css";
 import Equipment from "./components/Equipments";
 import Products from "./components/Products";
 
-// function Head() {
-//   return (
-//     <body>
-//       <head>
-//         {/* Favicons */}
-//         <link href="" rel="icon" />
-//         <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
-
-//         {/* Google font */}
-//         <link rel="preconnect" href="https://fonts.googleapis.com" />
-//         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-//         <link
-//           href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Roboto:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
-//           rel="stylesheet"
-//         />
-//       </head>
-//     </body>
-//   );
-// }
-
 function Content() {
   return (
     <div>
       <HeroSection></HeroSection>
       <GetStarted></GetStarted>
-      <Construction></Construction>
-      <Services></Services>
-      <AltServices></AltServices>
       <Features></Features>
+      <Equipment_Main></Equipment_Main>
+      <Products_Main></Products_Main>
+      {/* <Services></Services> */}
+      {/* <AltServices></AltServices> */}
     </div>
   );
 }

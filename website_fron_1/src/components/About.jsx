@@ -12,7 +12,7 @@ function About() {
 
               <div className="row position-relative">
 
-              <div className="col-lg-7 about-img" style={{ backgroundImage: `url('assets/img/about.jpg')` }}></div>
+              {/* <div className="col-lg-7 about-img" style={{ backgroundImage: `url('assets/img/about.jpg')` }}></div> */}
 
 
                 <div className="col-lg-7">
