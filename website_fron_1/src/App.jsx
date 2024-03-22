@@ -16,6 +16,8 @@ import "./assets/vendor/bootstrap-icons/bootstrap-icons.css";
 import "./assets/vendor/fontawesome-free/css/all.min.css";
 import "./assets/vendor/swiper/swiper-bundle.min.css";
 import "./App.css";
+import Equipment from "./components/Equipments";
+import Products from "./components/Products";
 
 // function Head() {
 //   return (
@@ -58,10 +60,9 @@ function App() {
         <Routes>
           <Route exact path="/" element={<Content />} />
           <Route path="/About" element={<About />} />
-          {/* <Route path="/services" component={Services} />
-                <Route path="/projects" component={Projects} />
-                <Route path="/blog" component={Blog} />
-                <Route path="/contact" component={Contact} /> */}
+          <Route path="/Equipment" element={<Equipment />} />
+          <Route path="/Product" element={<Products />} />
+          
         </Routes>
         <Footer />
       </Router>
