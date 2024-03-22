@@ -888,6 +888,10 @@ section {
   background-color: white;
 }
 
+.features .container {
+  justify-content: center;
+}
+
 .features .nav-tabs {
   border: 0;
 }
