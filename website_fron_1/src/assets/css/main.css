@@ -886,6 +886,7 @@ section {
 
 .features{
   background-color: white;
+  height: 500px;
 }
 
 .features .container {
@@ -925,6 +926,23 @@ section {
   .features .nav-link h4 {
     font-size: 16px;
   }
+}
+
+.features .container ul.tab{
+  display: flex;
+  list-style-type: none;
+}
+
+.features .container ul.tab li{
+  margin-right: 50px;
+}
+
+.features .container ul.tab a{
+  width: 175px;
+}
+
+.features .container .tab-content .para{
+  margin-top: 100px;
 }
 
 .features .nav-link:hover {

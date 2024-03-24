@@ -8,7 +8,7 @@ import Equipment_Main from "./components/equipment_main";
 import Products_Main from "./components/products_main";
 import Services from "./components/services";
 import AltServices from "./components/altServices";
-import Features from "./components/features";
+import Feature from "./components/features";
 import Footer from "./components/footer";
 import "./assets/css/main.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -25,7 +25,7 @@ function Content() {
     <div>
       <HeroSection></HeroSection>
       <GetStarted></GetStarted>
-      <Features></Features>
+      <Feature></Feature>
       <Equipment_Main></Equipment_Main>
       <Products_Main></Products_Main>
       {/* <Services></Services> */}
