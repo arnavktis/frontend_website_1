@@ -755,7 +755,8 @@ section {
 
 .equipments .card-item {
   display: flex;
-  /* flex-wrap: wrap; */
+  /* flex: 0 0 41%; */
+  min-width: 500px;
   border: 1px solid rgba(82, 86, 94, 0.2);
   background: #f5f6f7;
   position: relative;
@@ -763,14 +764,32 @@ section {
 }
 
 .equipments .card-item .card-bg {
+  flex: 0 0 50%;
   min-height: 300px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
+.equipments .card-item .card-bg .pic1{
+  margin-top: 40px;
+  width: 100%;
+}
+
 .equipments .card-item .card-body {
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.equipments .card-item .card-body .middle {
   padding: 30px;
+}
+
+.equipments .card-item .card-body .specs li{
+  align-items: center;
+  font-size: 13.5px;
+  text-align: left;
 }
 
 .equipments .card-item h4 {
