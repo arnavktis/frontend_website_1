@@ -776,6 +776,16 @@ section {
   width: 100%;
 }
 
+.equipments .card-item .card-bg .pic2{
+  margin-top: 20px;
+  width: 100%;
+}
+
+.equipments .card-item .card-bg .pic3{
+  margin-top: 80px;
+  width: 100%;
+}
+
 .equipments .card-item .card-body {
   padding: 20px;
   justify-content: center;
@@ -786,10 +796,18 @@ section {
   padding: 30px;
 }
 
-.equipments .card-item .card-body .specs li{
+.equipments .card-item .card-body .specs1 li{
   align-items: center;
   font-size: 13.5px;
   text-align: left;
+  margin-left: -10px;
+}
+
+.equipments .card-item .card-body .specs2 li{
+  align-items: center;
+  font-size: 13.5px;
+  text-align: left;
+  margin-left: -20px;
 }
 
 .equipments .card-item h4 {

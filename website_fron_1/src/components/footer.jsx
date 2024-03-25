@@ -12,15 +12,16 @@ function Footer() {
                 <div className="row">
                     <div className="col-lg-4 col-md-6">
                     <div className="footer-info">
-                        <h3>Jn Engineer</h3>
+                        <h3>Jn Engineers</h3>
                         <p>
-                        A108 Adam Street <br />
-                        NY 535022, USA
+                        Plot No. A-28 , Dabua Pali road < br/>
+                        near 17no. Chungi , < br/>
+                        FARIDABAD-121001
                         <br />
                         <br />
-                        <strong>Phone:</strong> +1 5589 55488 55
+                        <strong>Phone:</strong> 9811362044, 9811362040
                         <br />
-                        <strong>Email:</strong> info@example.com
+                        <strong>Email:</strong>  jnengineers@rediffmail.com
                         </p>
                         <div className="social-links d-flex mt-3">
                         <a href="#" className="d-flex align-items-center justify-content-center"><i className="bi bi-twitter"></i></a>
@@ -79,7 +80,7 @@ function Footer() {
                     &copy; Copyright <strong><span>JNEngineers</span></strong>. All Rights Reserved
                 </div>
                 <div className="credits">
-                    Designed by <a href="">Jn Engineers</a>
+                    Designed by <a href="">JN Engineers</a>
                 </div>
                 </div>
             </div>
