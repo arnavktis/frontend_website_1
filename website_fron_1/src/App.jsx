@@ -6,8 +6,6 @@ import HeroSection from "./components/heroSection";
 import GetStarted from "./components/getStarted";
 import Equipment_Main from "./components/equipment_main";
 import Products_Main from "./components/products_main";
-import Services from "./components/services";
-import AltServices from "./components/altServices";
 import Feature from "./components/features";
 import Footer from "./components/footer";
 import "./assets/css/main.css";

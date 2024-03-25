@@ -334,62 +334,6 @@ section {
   .navbar li:hover>a {
     color: #fff;
   }
-
-  .navbar .dropdown ul {
-    display: block;
-    position: absolute;
-    left: 28px;
-    top: calc(100% + 30px);
-    margin: 0;
-    padding: 10px 0;
-    z-index: 99;
-    opacity: 0;
-    visibility: hidden;
-    background: #fff;
-    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-    transition: 0.3s;
-  }
-
-  .navbar .dropdown ul li {
-    min-width: 200px;
-  }
-
-  .navbar .dropdown ul a {
-    padding: 10px 20px;
-    font-size: 15px;
-    text-transform: none;
-    color: var(--color-default);
-    font-weight: 400;
-  }
-
-  .navbar .dropdown ul a i {
-    font-size: 12px;
-  }
-
-  .navbar .dropdown ul a:hover,
-  .navbar .dropdown ul .active:hover,
-  .navbar .dropdown ul li:hover>a {
-    color: var(--color-primary);
-  }
-
-  .navbar .dropdown:hover>ul {
-    opacity: 1;
-    top: 100%;
-    visibility: visible;
-  }
-
-  .navbar .dropdown .dropdown ul {
-    top: 0;
-    left: calc(100% - 30px);
-    visibility: hidden;
-  }
-
-  .navbar .dropdown .dropdown:hover>ul {
-    opacity: 1;
-    top: 0;
-    left: 100%;
-    visibility: visible;
-  }
 }
 
 @media (min-width: 1280px) and (max-width: 1366px) {
@@ -743,6 +687,7 @@ section {
 }
 
 .equipment .container {
+  justify-content: center;
   display: flex;
   flex-wrap: wrap;
 }
@@ -750,10 +695,13 @@ section {
 .equipment .container > * {
   width: 42%;
   padding: 20px;
-  margin: 40px;
+  /* margin: 40px; */
+  margin: 20px;
+  justify-content: center;
 }
 
 .equipments .card-item {
+  justify-content: center;
   display: flex;
   /* flex: 0 0 41%; */
   min-width: 500px;
@@ -820,6 +768,26 @@ section {
 .equipments .card-item p {
   color: var(--color-secondary);
   margin: 0;
+}
+
+.equipments .knowmore {
+  color: var(--color-primary);
+  position: relative;
+}
+
+.equipments .knowmore::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 3px;
+  background-color: var(--color-primary);
+  transition: width 0.2s ease;
+}
+
+.equipments .knowmore:hover::after {
+  width: 100%; /* Increase width to 100% on hover */
 }
 
 /*--------------------------------------------------------------

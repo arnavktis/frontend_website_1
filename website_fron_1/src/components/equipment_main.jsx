@@ -1,9 +1,10 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import img1 from "./img/card_item_1.jpg";
 import img2 from "./img/card_item_2.jpg";
 import img3 from "./img/card_item_3.jpg";
 import img4 from "./img/card_item_4.jpg";
+import Equipment from "./Equipments";
+import { Router, Routes, Route, Link } from 'react-router-dom';
 
 function Equipment_Main() {
   return (
@@ -78,7 +79,7 @@ function Equipment_Main() {
             </div>
 
           </div>
-
+          <Link to="/Equipment" className='knowmore'>Know More</Link>
         </div>
       </section>
     </div>
