@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 
 const Equipment = () => {
   return (
@@ -10,8 +12,8 @@ const Equipment = () => {
           data-aos="fade">
           <h2>Projects</h2>
           <ol>
-            <li>
-              <a href="index.html">Home</a>
+            <li className="home">
+              <Link to="/">Home</Link>
             </li>
             <li>Projects</li>
           </ol>
