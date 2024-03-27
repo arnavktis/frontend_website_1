@@ -1334,7 +1334,12 @@ section {
   }
 }
 
+.about .container{
+  width: 100%;
+}
+
 .about .our-story {
+  width: 100%;
   padding: 40px;
   background-color: #f5f6f7;
 }

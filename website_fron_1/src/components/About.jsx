@@ -18,20 +18,27 @@ function About() {
                 <div className="col-lg-7">
                   <h2>J.N. Engineers</h2>
                   <div className="our-story">
-                    <h4>Est 1988</h4>
+                    <h4>Est 2015</h4>
                     <h3>Our Story</h3>
-                    <p>Inventore aliquam beatae at et id alias. Ipsa dolores amet consequuntur minima quia maxime autem. Quidem id sed ratione. Tenetur provident autem in reiciendis rerum at dolor. Aliquam consectetur laudantium temporibus dicta minus dolor.</p>
-                      <ul>
-                        <li><i className="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea commo</span></li>
-                        <li><i className="bi bi-check-circle"></i> <span>Duis aute irure dolor in reprehenderit in</span></li>
-                        <li><i className="bi bi-check-circle"></i> <span>Ullamco laboris nisi ut aliquip ex ea</span></li>
-                      </ul>
-                    <p>Vitae autem velit excepturi fugit. Animi ad non. Eligendi et non nesciunt suscipit repellendus porro in quo eveniet. Molestias in maxime doloremque.</p>
-
-                    <div className="watch-video d-flex align-items-center position-relative">
-                      <i className="bi bi-play-circle"></i>
-                      <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" className="glightbox stretched-link">Watch Video</a>
-                    </div>
+                    <p>We are Faridabad based eminent manufacturer Machining Parts, assemblies,
+                       axles, shafts, gears, special raw material supplier of a wide range of special type and
+                       all kinds of Mechanical Engineering ferrous and non-ferrous Components &
+                       Assemblies and Fabrication. J.N.ENGINEERS is an expert in designing and
+                       manufacturing an exclusive range of same parts as per customers’ technical
+                       specifications and needs. Founded by a team of futurists and dynamic technocrats,
+                       J.N.ENGINEERS has established itself as a leading company engaged in the field
+                       of Mechanical Engineering, designing, and manufacturing of various range of
+                       special components as per customer’s requirement.
+                    </p><br/>
+                    <p>We are supported by a team of experienced, skilled and trained engineers;
+                       customers care personnel, and marketing professionals who have acquired mastery
+                       in their respective fields. Use of genuine raw materials, compact and robust designs,
+                       stringent quality measures has enabled us to carve a distinct place in the market.
+                       Since inception, our vast experience, customer centric attitude, quality products,
+                       and affordable price range have placed us at the pinnacle in this business domain.
+                       Apart from it, our service engineers offers unmatched after sales services at
+                       reasonable rates to all our clients.
+                    </p>
                   </div>
                 </div>
 
