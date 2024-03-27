@@ -1334,8 +1334,14 @@ section {
   }
 }
 
+.about {
+  display: flex;
+  
+}
+
 .about .container{
-  width: 100%;
+  width: 50%;
+  position: left;
 }
 
 .about .our-story {
@@ -1344,10 +1350,14 @@ section {
   background-color: #f5f6f7;
 }
 
-@media (min-width: 991px) {
+/* @media (min-width: 991px) {
   .about .our-story {
     padding-right: 35%;
   }
+} */
+
+.about .aboutbox {
+  position: left;
 }
 
 .about .our-story h4 {
