@@ -10,12 +10,12 @@ const Equipment = () => {
         <div
           class="container position-relative d-flex flex-column align-items-center"
           data-aos="fade">
-          <h2>Projects</h2>
+          <h2>Equipment</h2>
           <ol>
             <li className="home">
               <Link to="/">Home</Link>
             </li>
-            <li>Projects</li>
+            <li>Equipment</li>
           </ol>
         </div>
       </div>

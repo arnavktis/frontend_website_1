@@ -9,12 +9,12 @@ const Products = () => {
         <div
           class="container position-relative d-flex flex-column align-items-center"
           data-aos="fade">
-          <h2>Projects</h2>
+          <h2>Products</h2>
           <ol>
             <li>
               <a href="index.html">Home</a>
             </li>
-            <li>Projects</li>
+            <li>Products</li>
           </ol>
         </div>
       </div>

@@ -16,7 +16,7 @@ function About() {
 
 
                 <div className="col-lg-7">
-                  <h2>Consequatur eius et magnam</h2>
+                  <h2>J.N. Engineers</h2>
                   <div className="our-story">
                     <h4>Est 1988</h4>
                     <h3>Our Story</h3>
