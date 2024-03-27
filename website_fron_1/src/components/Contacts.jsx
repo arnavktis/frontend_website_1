@@ -25,7 +25,10 @@ const Contact = () => {
                 <div class="info-item  d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-map"></i>
                   <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
+                  <p>
+                    Plot No. A-28 , Dabua Pali road near 17no. Chungi ,
+                    FARIDABAD-121001
+                  </p>
                 </div>
               </div>
 
@@ -33,7 +36,7 @@ const Contact = () => {
                 <div class="info-item d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>contact@example.com</p>
+                  <p>jnengineers@rediffmail.com</p>
                 </div>
               </div>
 
@@ -41,7 +44,7 @@ const Contact = () => {
                 <div class="info-item  d-flex flex-column justify-content-center align-items-center">
                   <i class="bi bi-telephone"></i>
                   <h3>Call Us</h3>
-                  <p>+1 5589 55488 55</p>
+                  <p>9811362044, 9811362040</p>
                 </div>
               </div>
             </div>
@@ -52,7 +55,7 @@ const Contact = () => {
                   src="https://maps.app.goo.gl/XfjzoqBc6fSFTVFv7"
                   width="600"
                   height="450"
-                  border = "0"
+                  border="0"
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
@@ -61,7 +64,7 @@ const Contact = () => {
 
               <div class="col-lg-6">
                 <form
-                  action="forms/contact.php"
+                  // action="forms/contact.php"
                   method="post"
                   role="form"
                   class="php-email-form"
