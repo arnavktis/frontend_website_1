@@ -52,10 +52,10 @@ const Contact = () => {
             <div class="row gy-4 mt-1">
               <div class="col-lg-6 ">
                 <iframe
-                  src="https://maps.app.goo.gl/XfjzoqBc6fSFTVFv7"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.2086184179334!2d77.26162477560143!3d28.38276629537874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cde933758d107%3A0x9811199ede250130!2sDabua%20Pali%20Rd%2C%20Sector%2049%2C%20Faridabad%2C%20Haryana%20121005!5e0!3m2!1sen!2sin!4v1711571786410!5m2!1sen!2sin"
                   width="600"
                   height="450"
-                  border="0"
+                  border = "0"
                   allowfullscreen=""
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
