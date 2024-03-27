@@ -17,6 +17,7 @@ import "./assets/vendor/swiper/swiper-bundle.min.css";
 import "./App.css";
 import Equipment from "./components/Equipments";
 import Products from "./components/Products";
+import Contact from "./components/Contacts";
 
 function Content() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="/About" element={<About />} />
           <Route path="/Equipment" element={<Equipment />} />
           <Route path="/Product" element={<Products />} />
+          <Route path="/Contact" element={<Contact />} />
           
         </Routes>
         <Footer />
