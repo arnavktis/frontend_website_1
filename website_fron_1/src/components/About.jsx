@@ -9,42 +9,6 @@ function About() {
           </div>
           <section id="about" className="about">
 
-              {/* <div className="row position-relative">
-
-              <div className="about about-img" style={{ backgroundImage: `url('assets/img/about.jpg')` }}></div>
-
-
-                <div className="aboutbox">
-                  <h2>J.N. Engineers</h2>
-                  <div className = "storybox">
-                    <div className="our-story">
-                      <h4>Est 2015</h4>
-                      <h3>Our Story</h3>
-                      <p>We are Faridabad based eminent manufacturer Machining Parts, assemblies,
-                        axles, shafts, gears, special raw material supplier of a wide range of special type and
-                        all kinds of Mechanical Engineering ferrous and non-ferrous Components &
-                        Assemblies and Fabrication. J.N.ENGINEERS is an expert in designing and
-                        manufacturing an exclusive range of same parts as per customers’ technical
-                        specifications and needs. Founded by a team of futurists and dynamic technocrats,
-                        J.N.ENGINEERS has established itself as a leading company engaged in the field
-                        of Mechanical Engineering, designing, and manufacturing of various range of
-                        special components as per customer’s requirement.
-                      </p><br/>
-                      <p>We are supported by a team of experienced, skilled and trained engineers;
-                        customers care personnel, and marketing professionals who have acquired mastery
-                        in their respective fields. Use of genuine raw materials, compact and robust designs,
-                        stringent quality measures has enabled us to carve a distinct place in the market.
-                        Since inception, our vast experience, customer centric attitude, quality products,
-                        and affordable price range have placed us at the pinnacle in this business domain.
-                        Apart from it, our service engineers offers unmatched after sales services at
-                        reasonable rates to all our clients.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
-              </div> */}
-
               <div>
                 <div>
                   <h2>J.N. Engineers</h2>

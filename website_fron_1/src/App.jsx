@@ -44,7 +44,6 @@ function App() {
           <Route path="/Equipment" element={<Equipment />} />
           <Route path="/Product" element={<Products />} />
           <Route path="/Contact" element={<Contact />} />
-          
         </Routes>
         <Footer />
       </Router>
